@@ -80,12 +80,12 @@ formatting. I had to write regex patterns to identify
 only transaction lines and filter out everything else 
 like account numbers, headers and bank messages.
 
-The second was categorization. My first approach was 
-simple — match store names to categories. That worked 
-until I realized the same store could mean completely 
-different things depending on how much was spent. A 
-$4 purchase at a liquor store is probably a snack. 
-A $40 purchase at the same store is probably alcohol.
+The second was categorization. My first approach was simple —
+match store names to categories. That worked until I realized
+the same store could mean completely different things depending 
+on how much was spent. A $4 purchase at a store could be a
+quick snack or a small grocery run. A $40 purchase at 
+the same store is a full social spending haul.
 
 So I built amount based logic — if the purchase is 
 under $15 at an ambiguous store it goes to groceries. 
