@@ -1,4 +1,4 @@
-#Personal Finance Analytics End to End Data Pipeline
+##Personal Finance Analytics End to End Data Pipeline
 
 A personal finance tool that extracts real bank transactions 
 from PDF statements, cleans and categorizes them using Python 
