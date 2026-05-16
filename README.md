@@ -70,7 +70,6 @@ Python CLI app to view, add, update and delete expenses
 
 Interactive Tableau dashboard for visual analysis
 
-There were two real challenges in this project.
 
 ## The Hardest Part
 
