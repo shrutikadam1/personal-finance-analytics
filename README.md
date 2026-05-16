@@ -162,7 +162,7 @@ October was my highest spending month by far
 
 ## Live Dashboard
 
-https://public.tableau.com/views/PersonalFinanceAnalyticsEndtoEndDataPipeline/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[View Live Dashboard](https://public.tableau.com/views/PersonalFinanceAnalyticsEndtoEndDataPipeline/Dashboard1)
 
 
 
