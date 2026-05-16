@@ -5,6 +5,7 @@ from PDF statements, cleans and categorizes them using Python
 and visualizes spending patterns through an interactive 
 Tableau dashboard.
 
+![Dashboard](dashboard.png)
 
 ## Why I Built This
 
@@ -97,27 +98,6 @@ The lesson was that data cleaning is never just about
 removing bad data. Sometimes it is about understanding 
 the context behind the numbers.
 
-## What It Does
-
-Extracts transactions from PDF bank statements using 
-pdfplumber with no manual data entry
-
-Removes sensitive information automatically
-
-Cleans and categorizes 115 transactions across 12 
-spending categories using pandas
-
-Uses amount based logic for ambiguous stores where 
-the same store gets categorized differently based on 
-purchase amount
-
-Stores everything in a MySQL database with proper 
-relational structure
-
-Python CLI app to view, add, update and delete expenses
-
-Interactive Tableau dashboard for visual analysis
-
 ## Tech Stack
 
 | Tool | Purpose |
@@ -166,6 +146,8 @@ python3 expense_tracker.py
 
 ## Key Insights From My Data
 
+![Spending by Category](spending_by_category.png)
+
 Transfers were my highest spending category mostly 
 splitting bills and expenses with friends
 
@@ -176,6 +158,7 @@ Social spending was double what I initially
 estimated after better categorization
 
 October was my highest spending month by far
+
 
 ## Live Dashboard
 
