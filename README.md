@@ -109,17 +109,19 @@ the context behind the numbers.
 
 ## How It Works
 
+```
 PDF Bank Statement
-      ↓
+        ↓
 pdfplumber extracts raw transactions
-      ↓
+        ↓
 pandas cleans, formats and categorizes
-      ↓
+        ↓
 MySQL stores structured data
-      ↓
+        ↓
 Python CLI app to manage expenses
-      ↓
+        ↓
 Tableau dashboard for visualization
+```
 
 ## How To Run It
 
